@@ -261,3 +261,140 @@ Chef and Rapper Page Styling
   margin: 66px 45px -23px 0;
   transition: .3s;
 }
+
+/*=======================================
+
+Contact Page Styling
+
+=========================================*/
+
+.container section {
+  margin: 40px 0 5px 0;
+  height: 498px;
+}
+
+.current {
+  color: #fcb6ca;
+}
+
+
+.contact {
+  max-width: 375px;
+}
+
+.contact-content {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.hero {
+  display: inline-block;
+  width: 48%;
+}
+
+.hero-image {
+  width: 95%;
+}
+
+p.special-quote {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 11px;
+  right: -12px;
+}
+
+p::first-letter{
+  text-transform: capitalize;
+}
+
+.signature-center {
+  font: italic 28px adobe-handwriting-ernie, sans-serif;
+  color: #ffc6ca;
+  text-align: center;
+}
+
+.signature-right {
+  font: italic 28px adobe-handwriting-ernie, sans-serif;
+  color: #ffc6ca;
+  float: right;
+}
+
+.pink {
+  padding: 141px;
+  background-color: #fcb6ca;
+}
+
+.contact-title::after {
+  content: 'Melz';
+  color: #ffe8dd;
+  font: italic 36px adobe-handwriting-ernie, sans-serif;
+  padding: 0 0 0 4px;
+}
+
+.require::after {
+  content: '*';
+  color: pink;
+}
+
+/*=======================================
+
+Form Styling
+
+=========================================*/
+
+.lighter-bg {
+  background-color: #a57e69;
+}
+
+.contact-form {
+  position: relative;
+  bottom: 196px;
+  max-width: 511px;
+  color: white;
+  font-family: lato, sans-serif;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.submit input {
+  display: inline;
+  margin: 10px 0 5px 0;
+  padding: 7px 130px 7px 130px;
+  border-radius: 10px;
+  background: linear-gradient(#ffffff, #fcb6ca);
+  font: bolder lato, sans-serif;
+  text-transform: uppercase;
+  color: #88634F;
+}
+
+.submit input:hover {
+  background: linear-gradient(#ffffff, #ffe8dd);
+}
+
+.submit input:active {
+  background: #88634f;
+  color: #fcb6ca
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px 187px 10px 10px;
+  border-radius: 4px;
+}
+
+textarea::placeholder, input::placeholder {
+  color: #88634f;
+  font-style: italic;
+}
+
+textarea {
+  padding: 10px 10px;
+  border-radius: 10px;
+}
