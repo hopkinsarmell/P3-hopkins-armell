@@ -168,3 +168,28 @@ img.trio {
   text-transform: uppercase;
   color: #ffe8dd;
 }
+
+/*=======================================
+
+The Model Page Styling
+
+=========================================*/
+
+.model-bg {
+  background-color: #a57e69;
+}
+
+.modeling {
+  object-fit: cover;
+  max-width: 223px;
+  max-height: 410px;
+  border: solid 2px pink;
+  border-radius: 30px;
+  padding: 0px;
+  margin: 66px 45px -23px 0;
+}
+
+.gallery {
+  text-align: center;
+  margin: -32px 0 0 0;
+}
