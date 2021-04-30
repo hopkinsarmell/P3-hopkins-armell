@@ -1,6 +1,18 @@
-<html lang="en" dir="ltr">
+<html class="lighter-bg lang="en" dir="ltr">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195966598-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-195966598-1');
+    </script>
+
     <title>Form | Melzitup</title>
+
+    <!-- Meta and Keywords -->
     <meta charset="utf-8">
     <meta name="keywords" content="model chef rapper melz" />
     <meta name="description" content="Discovering the creative workings of Melz as a model, chef, and rapper." />
@@ -17,12 +29,79 @@
     <!-- Link to animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-    <!-- Background -->
-    <html class="lighter-bg">
+
   </head>
+
   <body>
-  <main>
-  </main>
-    <footer class="footer-three">Website by Armell Hopkins</footer>
+    <header>
+      <div class="container">
+        <div class="logo-container">
+          <a href="index.html"><img src="images/logo.png" class="logo animate__animated animate__zoomInDown" alt="Melzitup Logo" /></a>
+          <a href="index.html"><img src="images/bolt.png" class="bolt animate__animated animate__heartBeat" alt="lightning bolt" /></a>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="model.html">The Model</a></li>
+            <li><a href="rapper.html">The Rapper</a></li>
+            <li><a href="chef.html">The Chef</a></li>
+            <li><a class="current" href="form.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </header>
+
+    <main class="lighter-bg">
+      <div class="container apple">
+        <section class="contact-intro">
+          <div class="contact-content">
+            <h1 class="contact-title">Contact</h1>
+            <p class="contact">thank you for visiting my site! To contact me, please use the form below. I look forward to hearing from you.</p>
+          </div>
+          <div class="hero">
+            <img src="images/hero.png" class="hero-image" alt="Hero Image" />
+            <p class="special-quote">"being you costs nothing, when you're <br> willing to accept the price."</p>
+            <p class="signature-center">- Melz</p>
+          </div>
+
+          <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+            <div class="first-name input-section">
+              <label for="firstname" class="label_input_wrap require">First Name:
+              </label>
+              <input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
+            </div>
+
+            <div class="last-name input-section">
+              <label for="lastname" class="label_input_wrap">Last Name:
+              </label>
+              <input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+            </div>
+
+            <div class="email input-section">
+              <label for="email" class="label_input_wrap require">Email:</label>
+              <input type="email" name="req_email" id="email" placeholder="jsmith@example.com"/>
+            </div>
+
+            <div class="telephone input-section">
+              <label for="telephone" class="label_input_wrap">Telephone:</label>
+              <input type="tel" name="telephone" id="telephone" placeholder="555-555-555" />
+            </div>
+
+            <div class="comments input-section">
+              <label for="comments" class="label_input_wrap require">Message:</label>
+              <textarea name="comments" id="comments" cols="47" rows="10" placeholder="Your Message Goes Here"></textarea>
+            </div>
+
+            <div class="submit">
+              <input type="submit" value="Send Message"/>
+            </div>
+
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="footer-two">Website by Armell Hopkins</footer>
   </body>
 </html>
