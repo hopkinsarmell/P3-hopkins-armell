@@ -193,3 +193,71 @@ The Model Page Styling
   text-align: center;
   margin: -32px 0 0 0;
 }
+
+/*=======================================
+
+Chef and Rapper Page Styling
+
+=========================================*/
+
+.different {
+  background-color: #88634f;
+  padding: 50px 500px;
+}
+
+.cook-bg {
+  background-color: #88634f;
+}
+
+.banner-heading {
+  color: white;
+  font:99px termina, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding:44px;
+}
+
+.banner-sub {
+  color: #88634f;
+  font: 24px termina, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  text-align: center;
+  position: relative;
+  top: -82px;
+  left: 10px;
+}
+
+.talent {
+  position: relative;
+  bottom: 323px;
+  left: 1110px;
+}
+
+.banner {
+  background-color: #fcb6ca;
+  width: 100%;
+  height: 301px;
+}
+
+.food {
+  object-fit: cover;
+  max-width: 300px;
+  max-height: 300px;
+  border: solid 2px pink;
+  border-radius: 30px;
+  padding: 0px;
+  margin: 66px 45px -23px 0;
+  transition: .3s;
+}
+
+.food:hover {
+  object-fit: cover;
+  max-width: 400px;
+  max-height: 400px;
+  box-shadow: 4px 24px 19px #6f5243;
+  border-radius: 30px;
+  padding: 0px;
+  margin: 66px 45px -23px 0;
+  transition: .3s;
+}
