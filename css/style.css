@@ -1,0 +1,82 @@
+/*=======================================
+
+Universal Styling
+
+=========================================*/
+
+* {
+  margin:0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  font: 36px lato, sans-serif;
+  color: #fcb6ca;
+}
+
+p {
+  font: bolder 18px lato, sans-serif;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*=======================================
+
+Header Styling
+
+=========================================*/
+
+header {
+  padding: 10px;
+  background-color: #88634f;
+}
+
+header .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  max-height: 83px;
+}
+
+header nav {
+  display: inline-block;
+  width: 76%;
+  color: white;
+  position: relative;
+  top: -51px;
+  padding-left: 323px;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 0 15px;
+  font: bolder 16px termina, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav li a:hover  {
+  color: #fcb6ca;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo-container {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+}
+
+.bolt {
+  position: absolute;
+  left: 134px;
+  top: 5px;
+}
