@@ -1,4 +1,5 @@
-<html class="lighter-bg" lang="en" dir="ltr" >
+<!DOCTYPE html>
+<html class="model-bg" lang="en" dir="ltr">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195966598-1"></script>
@@ -16,10 +17,11 @@
     <meta name="description" content="Discovering the creative workings of Melz as a model, chef, and rapper." />
 
     <!-- FAVIcon -->
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" tpe="img/ico" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="img/ico" />
 
     <!-- Link to our style.css file -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
 
     <!-- Link to Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/hbl5zip.css">
@@ -27,61 +29,57 @@
     <!-- Link to animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+
   </head>
-
   <body>
-
     <header>
       <div class="container">
         <div class="logo-container">
-          <a href="index.html"><img src="images/logo.png" class="logo animate__animated animate__zoomInDown" alt="Melzitup Logo" /></a>
-          <a href="index.html"><img src="images/bolt.png" class="bolt animate__animated animate__heartBeat" alt="lightning bolt" /></a>
+          <a href="index.html"><img src="images/logo.png" class="logo animate__animated animate__pulse" alt="Melzitup Logo" /></a>
+          <a href="index.html"><img src="images/bolt.png" class="bolt animate__animated animate__pulse" alt="lightning bolt" /></a>
         </div>
 
         <nav>
           <ul>
-            <li><a class="current" href="index.html">Home</a></li>
-            <li><a href="model.html">The Model</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="model.html">The Model</a></li>
             <li><a href="rapper.html">The Rapper</a></li>
             <li><a href="chef.html">The Chef</a></li>
             <li><a href="form.html">Contact</a></li>
           </ul>
         </nav>
       </div>
-
     </header>
+    <section class="banner">
+      <h1 class="banner-heading">Melz</h1>
+      <h2 class="banner-sub">Modeling</h2>
+    </section>
+    <main class="model-main">
 
-    <main class="lighter-bg">
-      <div class="container">
-        <section class="welcome-intro">
-          <div class="welcome-content">
-            <h1 class="welcome first">Welcome!</h1>
-            <p class="welcome">Thank you for visiting my site. This site is an untraditional portfolio, sharing three areas of intrest that I have, that I am not as vocal about in my life. These interests are: rapping, cooking, and modeling. Feel free to explore the site and get an inside look at these somewhat hidden aspects of me. Enjoy!<br> <span class="signature-right">- Melz</span></p>
-          </div>
+      <section class="gallery">
+        <h3 class="pre-gallery">"To model or not to, that is the question."</h3>
+        <a href="images/model-1.jpg" data-lightbox="image-1" data-title="Daring"><img src="images/model-1.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-1" title="Model" /></a>
 
-          <img src="images/hero.png" class="hero" alt="Hero Image" />
-        </section>
-      </div>
+        <a href="images/model-2.jpg" data-lightbox="image-1" data-title="Soft Whispers"><img src="images/model-2.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-2" title="Model" /></a>
 
-      <div class="wrapper">
-        <section class="box-links">
-          <div class="box">
-            <h2 class="box-title"><a href="model.html">View</a></h2>
-            <img src="images/model.png" class="trio" alt="Hero Image" />
-          </div><!-- box -->
+        <a href="images/model-3.jpg" data-lightbox="image-1" data-title="Model in Flow"><img src="images/model-3.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-3" title="Model" /></a><br>
 
-          <div class="box">
-            <h2 class="box-title"><a href="rapper.html">Listen</a></h2>
-            <img src="images/rapper.png" class="trio" alt="Hero Image" />
-          </div><!-- box -->
+        <a href="images/model-4.jpg" data-lightbox="image-1" data-title="Curiosity"><img src="images/model-4.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-4" title="Model" /></a>
 
-          <div class="box">
-            <h2 class="box-title"><a href="chef.html">Taste</a></h2>
-            <img src="images/chef.png" class="trio" alt="Hero Image" />
-          </div><!-- box -->
-        </section>
-      </div><!-- wrapper -->
+        <a href="images/model-5.jpg" data-lightbox="image-1" data-title="The Watchful"><img src="images/model-5.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-5" title="Model" /></a>
+
+        <a href="images/model-6.jpg" data-lightbox="image-1" data-title="Blank Face"><img src="images/model-6.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-6" title="Model" /></a><br>
+
+        <a href="images/model-7.jpg" data-lightbox="image-1" data-title="Summer Days"><img src="images/model-7.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-7" title="Model" /></a>
+
+        <a href="images/model-8.jpg" data-lightbox="image-1" data-title="Model Stare"><img src="images/model-8.jpg" width="223" height="410" class="modeling animate__animated animate__pulse" alt="Model-8" title="Model" /></a>
+      </section>
     </main>
-    <footer class="footer-one">Website by Armell Hopkins</footer>
+    <footer class="footer-three">Website by Armell Hopkins</footer>
+    <script src="lightbox/src/js/lightbox.js"></script>
   </body>
 </html>

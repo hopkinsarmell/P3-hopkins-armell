@@ -1,4 +1,5 @@
-<html class="model-bg lang="en" dir="ltr">
+<!DOCTYPE html>
+<html class="lighter-bg" lang="en" dir="ltr">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195966598-1"></script>
@@ -16,10 +17,11 @@
     <meta name="description" content="Discovering the creative workings of Melz as a model, chef, and rapper." />
 
     <!-- FAVIcon -->
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" tpe="img/ico" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="img/ico" />
 
     <!-- Link to our style.css file -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
 
     <!-- Link to Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/hbl5zip.css">
@@ -27,6 +29,9 @@
     <!-- Link to animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
 
   </head>
   <body>
@@ -40,9 +45,9 @@
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a class="current" href="model.html">The Model</a></li>
+            <li><a href="model.html">The Model</a></li>
             <li><a href="rapper.html">The Rapper</a></li>
-            <li><a href="chef.html">The Chef</a></li>
+            <li><a class="current" href="chef.html">The Chef</a></li>
             <li><a href="form.html">Contact</a></li>
           </ul>
         </nav>
@@ -55,26 +60,19 @@
     </section>
     <main class="model-main">
 
-      <section>
-        <div class="gallery">
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
+      <section class="gallery">
+        <h3 class="pre-gallery">"The Chef is in the kitchen cooking food!"</h3>
+        <a href="images/food-chicken-tenders.jpg" data-lightbox="image-1" data-title="Southern Style Chicken Tenders"><img src="images/food-chicken-tenders.jpg" width="600" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
 
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
+        <a href="images/food-bbq-chicken-wings.jpg" data-lightbox="image-1" data-title="Hearty BBQ Wings"><img src="images/food-bbq-chicken-wings.jpg" width="600" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
 
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a><br>
+        <a href="images/food-steak.jpg" data-lightbox="image-1" data-title="Steak and Rice w/ Broccoli"><img src="images/food-steak.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a><br>
 
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
+        <a href="images/food-meat-loaf.jpg" data-lightbox="image-1" data-title="Meat Loaf Dinner"><img src="images/food-meat-loaf.jpg" width="600" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
 
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
+        <a href="images/food-cupcakes.jpg" data-lightbox="image-1" data-title="Sweet Cupcakes"><img src="images/food-cupcakes.jpg" width="600" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
 
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a><br>
-
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
-
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
-
-          <a href="images/model.jpg" data-lightbox="image-1" data-title="Testing here"><img src="images/model.jpg" width="500" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a>
-        </div>
+        <a href="images/food-bananna-pudding.jpg" data-lightbox="image-1" data-title="Tasty Bananna Pudding"><img src="images/food-bananna-pudding.jpg" width="600" height="600" class="food animate__animated animate__pulse" alt="Placeholder" title="Placeholder" /></a><br>
       </section>
 
     </main>
